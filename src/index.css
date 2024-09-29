@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --title:"Sofadi One", system-ui;
+    --standart:"Montserrat", sans-serif;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color:rgb(49, 49, 124);
+    color:white;
+}
+.navbar{
+    font-family:var(--standart);
+}
+.portfolio__container{
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
+}
+.hero__title{
+    font-family:var(--title);
+}
+.standart{
+    font-family:var(--standart);
+}
