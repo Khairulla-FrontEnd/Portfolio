@@ -3,9 +3,9 @@ import { useState } from "react";
 function Contact() {
   const [result, setResult] = useState("");
   const handleSubmit = async (event) => {
+    setResult("Submitting...");
     event.preventDefault();
     const formData = new FormData(event.target);
-    setResult("Submitting...");
 
     formData.append("access_key", "d6446067-8ffe-4080-baf4-f295ead0a18b");
 
@@ -20,18 +20,14 @@ function Contact() {
       },
       body: json,
     })
-      .then((response) => response.json())
+      .then((res) => res.json())
       .catch((err) => setResult("Error with submitting form!"));
 
     if (res.success) {
-      setResult("Form successfully sumbitted!");
-      [
-        document.querySelectorAll("input"),
-        document.querySelectorAll("textarea"),
-      ].forEach((item) => item.forEach((el) => (el.value = "")));
+      setResult("Form submitted!");
     }
   };
-  // TITLELANI FONTSIZE NI PASAYTIRISH GARAK INPUTLA BOLDI I JUSTIFYCONTENT AROUND ATISH GARAK YO YOQ!
+
   return (
     <div id="contact" className="portfolio__container pb-16">
       <h1 className="hero__title text-white my-10 text-2xl font-bold text-center">
@@ -65,16 +61,6 @@ function Contact() {
           onSubmit={handleSubmit}
           className="standart flex flex-col justify-center gap-5"
         >
-          <input
-            type="hidden"
-            name="access_key"
-            value="d6446067-8ffe-4080-baf4-f295ead0a18b"
-          />
-          <input
-            type="hidden"
-            name="apikey"
-            value="d6446067-8ffe-4080-baf4-f295ead0a18b"
-          />
           <div className="flex flex-col gap-2">
             <label className="font-bold">Your Name</label>
             <input
