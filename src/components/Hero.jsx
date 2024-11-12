@@ -1,5 +1,5 @@
 import Avatar from "../assets/avatar.jpg";
-import resume from "../assets/Ruzimov Khairulla.pdf";
+import resume from "../assets/Khairulla Ruzimov.pdf";
 
 function Hero() {
   return (
