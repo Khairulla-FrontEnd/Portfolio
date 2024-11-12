@@ -10,7 +10,7 @@ function Hero() {
     >
       <div className="text-lg text-center sm:text-start sm:text-xl md:text-2xl lg:text-4xl w-96 max-[400px]:w-60 sm:w-2/5 hero__title">
         <h1>
-          Junior Frontend React Developer with a focus on building interactive
+          Frontend Developer with a focus on building interactive
           and responsive web sites.
         </h1>
         <a href={resume} download="Khairulla Ruzimov.pdf">
