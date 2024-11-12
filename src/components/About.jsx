@@ -13,9 +13,9 @@ function About() {
           Uzbekistan 📍
         </p>
         <p className="standart text-[10px] sm:text-xs xl:text-lg lg:text-sm text-gray-700 md:w-[600px] w-2/3">
-          As a Junior Front-End Developer, I'm proficient in HTML, CSS and
-          JavaScript. I use libraries and frameworks like Tailwind, Bootstrap
-          and React to maintain high quality, responsive and interactive web
+          As a Front-End Developer, I'm proficient in HTML, CSS and
+          JavaScript. I use libraries and frameworks like Tailwind, Bootstrap,
+          Angular and React to maintain high quality, responsive and interactive web
           sites that offer a smooth user experience. I love when people put
           trust on me and I do my best to do their work with as high quality as
           possible. As it says "Quality is more important than quantity".
