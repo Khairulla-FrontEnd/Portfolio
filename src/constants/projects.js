@@ -3,6 +3,7 @@ import Britex from "../assets/Britex.png";
 import SnakeGame from "../assets/Snake__Game.png";
 import WeatherApp from "../assets/Weather__App.png";
 import Weather from "../assets/Weather.png";
+import Topic from "../assets/Topic.png";
 
 export const projects = [
   {
@@ -55,4 +56,14 @@ export const projects = [
     link: "https://weather-eight-wheat.vercel.app",
     github: "https://github.com/Khairulla-FrontEnd/Weather.git",
   },
+  {
+    id:6,
+    imgSrc:Topic,
+    title:"Topic",
+    subtitle:
+    "Topic is a course for those who want to learn designing, and this is a bootstrap responsive and angular friendly website",
+    libraries:"Angular Bootstrap",
+    github:"https://github.com/Khairulla-FrontEnd/Topic",
+    link:"https://topic-rose.vercel.app"
+  }
 ];
